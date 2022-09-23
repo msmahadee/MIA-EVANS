@@ -1,3 +1,30 @@
 body {
-    font-size: 15pt;
+    width: device-width;
+  height: auto;
+}
+img.top{
+  width:100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+iframe.main {
+  position: sticky;
+  top: 50px;
+  width:100%;
+  height:240px;
+  allow:autoplay;
+  border-radius:5px;
+}
+div{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 47% 47%;
+  grid-column-gap: 6%;
+  grid-row-gap: 19px;
+}
+img{
+  width:100%;
+  height:115px;
+  border-radius: 2px;
 }
